@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap-5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.css">
+    <link rel="stylesheet" href="assets/icons/FontAwesome.Pro.7.0.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>BootStrap</title>
+</head>
+
+<body>
+
+    <header class="header-main">
+        <div class="swiper header-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/pictures/slider-1.jpg">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="assets/pictures/slider-2.jpg">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="assets/pictures/slider-3.jpg">
+                </div>
+            </div>
+
+            <div class="next-btn d-none d-lg-block "><i class="fas fa-chevron-right"></i></div>
+            <div class="perv-btn d-none d-lg-block "><i class="fas fa-chevron-left"></i></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="container h-100">
+            <div class="header-main__wrapper">
+                <section class="header-main__menu" id="mainMenu">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <!-- logo -->
+                            <div class="col-6 col-lg-2">
+                                <div class="header-main__menu-logo">
+                                    <a href="#">
+                                        <img src="assets/pictures/logo.png" alt="logo image" title="logo image"
+                                            class="logo-white">
+                                        <img src="assets/pictures/logo-black.png" alt="logo image" title="logo image"
+                                            class="logo-black">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Desktop Menu-->
+                            <div class="col-lg-8 d-none d-lg-flex justify-content-center">
+                                <div class="header-main__menu-list h-100">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li>
+                                            <a href="#">Services</a>
+                                            <ul>
+                                                <li><a href="#">Services</a></li>
+                                                <li><a href="#">Services Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Gallery</a></li>
+                                        <li>
+                                            <a href="#">Pages</a>
+                                            <ul>
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">Team</a></li>
+                                                <li><a href="#">Pricing</a></li>
+                                                <li><a href="#">FAQ</a></li>
+                                                <li><a href="#">404 Error</a></li>
+                                                <li><a href="#">Coming Soon</a></li>
+                                                <li><a href="#">Terms & Conditions</a></li>
+                                                <li><a href="#">Privacy Policy</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Blog</a>
+                                            <ul>
+                                                <li><a href="#">Blog</a></li>
+                                                <li><a href="#">Blog Right Sidebar</a></li>
+                                                <li><a href="#">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Mobile Menu-->
+                            <div class="col-6 col-lg-2 d-flex justify-content-end">
+                                <button class="header-main__toggle d-lg-none" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fa-solid fa-bars"></i></button>
+
+                                <div class="offcanvas offcanvas-top responsive-menu" tabindex="-1" id="offcanvasTop"
+                                    aria-labelledby="offcanvasTopLabel">
+                                    <div class="offcanvas-header responsive-menu__header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close">
+                                        </button>
+                                    </div>
+                                    <div class="offcanvas-body responsive-menu__body">
+                                        <div class="responsive-menu__list">
+                                            <ul>
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">About Us</a></li>
+                                                <li>
+                                                    <a href="#">Services</a>
+                                                    <ul>
+                                                        <li><a href="#">Services</a></li>
+                                                        <li><a href="#">Services Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Gallery</a></li>
+                                                <li>
+                                                    <a href="#">Pages</a>
+                                                    <ul>
+                                                        <li><a href="#">About Us</a></li>
+                                                        <li><a href="#">Team</a></li>
+                                                        <li><a href="#">Pricing</a></li>
+                                                        <li><a href="#">FAQ</a></li>
+                                                        <li><a href="#">404 Error</a></li>
+                                                        <li><a href="#">Coming Soon</a></li>
+                                                        <li><a href="#">Terms & Conditions</a></li>
+                                                        <li><a href="#">Privacy Policy</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Blog</a>
+                                                    <ul>
+                                                        <li><a href="#">Blog</a></li>
+                                                        <li><a href="#">Blog Right Sidebar</a></li>
+                                                        <li><a href="#">Blog Details</a></li>
+                                                    </ul>
+
+                                                </li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="holder-default-btn holder-default-btn-header">
+                                    <a class="default-btn btn-header" href="#0">Get In Touch
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="header-main__content">
+                    <div class="header-main__content-icon">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="header-main__content-title">Auto Maintenance & Repair Service</div>
+                    <div class="header-main__content-description">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet aperiam modi ratione
+                            ducimus adipisci iste nihil sunt, velit dolorum autem labore eum, temporibus quas aut. A
+                            sunt praesentium aut tempore?
+                        </p>
+                    </div>
+                    <div class="header-main__content-btns">
+                        <a href="#" class="btn-light">Our Service</a>
+                        <a href="#" class="btn-orange">Contact Us</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-our section-padding">
+        <div class="container">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-content d-flex flex-column gap-3">
+                        <h6 class="sub-title">About Our Company</h6>
+                        <h2>What We Promise To You</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmodtemporincididuntut labore et dolore magna aliqua enim
+                        </p>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="about-list-info">
+                                    <p><i class="fa fa-clone"></i> 100% Transparency</p>
+                                    <p><i class="fa fa-clone"></i> Lifetime Warranty</p>
+                                    <p><i class="fa fa-clone"></i> Genuine Spare Parts</p>
+                                    <p><i class="fa fa-clone"></i> Qualityful &amp; Trusted Services</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about-list-info">
+                                    <p><i class="fa fa-clone"></i> Safety Guidelines</p>
+                                    <p><i class="fa fa-clone"></i> Quality Assurance Team</p>
+                                    <p><i class="fa fa-clone"></i> 24/7 Emergency Services</p>
+                                    <p><i class="fa fa-clone"></i> Verified Professionals</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-content">
+                            <div class="holder-default-btn">
+                                <a class="default-btn" href="#0">Learn More
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-image">
+                        <img src="assets/pictures/about.jpg" alt="about image" title="about image"
+                            class="img-thumbnail border-0 rounded rounded-3">
+
+                        <div class="sub-content">
+                            <img src="assets/pictures/about-sub.jpg" alt="about sub" title="about sub">
+                            <div class="content-info">
+                                <h3>20+</h3>
+                                <span>Years of Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="top-btn">
+        <button class="backToTop">
+            <span class="icon-wrapper">
+                <i class="fas fa-chevron-up icon icon1"></i>
+                <i class="fas fa-chevron-up icon icon2"></i>
+            </span>
+        </button>
+    </div>
+
+    <section class="services-section bg-grey pt-100 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h6 class="sub-title">What We Provide</h6>
+                        <h2>Our Services</h2>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card service-card ">
+                        <div class="services-img">
+                            <img src="assets/pictures/services-1.jpg" class="img-thumbnail" alt="service-img"
+                                title="service 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Oil Change</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt dolore</p>
+
+                            <div class="holder-default-btn">
+                                <a class="default-btn" href="#0">Book Now
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card service-card">
+                        <div class="services-img">
+                            <img src="assets/pictures/services-2.jpg" class="img-thumbnail" alt="service-img"
+                                title="service 2">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Oil Change</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt dolore</p>
+                            <div class="holder-default-btn">
+                                <a class="default-btn" href="#0">Book Now
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card service-card">
+                        <div class="services-img">
+                            <img src="assets/pictures/services-3.jpg" class="img-thumbnail" alt="service-img"
+                                title="service 3">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Oil Change</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt dolore</p>
+                            <div class="holder-default-btn">
+                                <a class="default-btn" href="#0">Book Now
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card service-card">
+                        <div class="services-img">
+                            <img src="assets/pictures/services-4.jpg" class="img-thumbnail" alt="service-img"
+                                title="service 4">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Oil Change</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt dolore</p>
+                            <div class="holder-default-btn">
+                                <a class="default-btn" href="#0">Book Now
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card service-card">
+                        <div class="services-img">
+                            <img src="assets/pictures/services-5.jpg" class="img-thumbnail" alt="service-img"
+                                title="service 5">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Oil Change</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt dolore</p>
+                            <div class="holder-default-btn">
+                                <a class="default-btn" href="#0">Book Now
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card service-card">
+                        <div class="services-img">
+                            <img src="assets/pictures/services-6.jpg" class="img-thumbnail" alt="service-img"
+                                title="service 6">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Oil Change</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt dolore</p>
+                            <div class="holder-default-btn">
+                                <a class="default-btn" href="#0">Book Now
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hire-area section-padding">
+        <div class="container-fluid">
+            <div class="hire-content">
+                <a href="#" class="video-btn">
+                    <i class="fa fa-play-circle"></i>
+                </a>
+                <h5>For a free call now Schedule An Appointment</h5>
+                <h2>24/7 Maintenance & Repairs Services</h2>
+                <h3>CALL US: <a href="tel:503777505" class="call-button"> (505) 707-11035</a>
+                </h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="price-section pt-100 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h6 class="sub-title">Popular Package</h6>
+                        <h2>Service Packages</h2>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card-price">
+                        <div class="price-top-bg">
+                            <div class="price-title">
+                                <h3>Basic Plan</h3>
+                            </div>
+                            <div class="price-amount">
+                                <h2>$170 <span class="price-period">- Starting From</span></h2>
+                            </div>
+                        </div>
+
+                        <div class="price-features">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Oil & Filter Change</li>
+                                <li class="list-group-item">15 Point Check</li>
+                                <li class="list-group-item">Check Suspension</li>
+                                <li class="list-group-item">Check Brake Lines & Hoses</li>
+                                <li class="list-group-item">Brake Fluid Change</li>
+                                <li class="list-group-item">Brake Component Clean</li>
+                                <li class="list-group-item">Top up Coolant</li>
+                            </ul>
+                        </div>
+                        <div class="holder-price-btn">
+                            <a href="#" class="card-link price-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card-price">
+                        <div class="price-top-bg">
+                            <div class="price-title">
+                                <h3>Standard Plan</h3>
+                            </div>
+                            <div class="price-amount">
+                                <h2>$250 <span class="price-period">- Starting From</span></h2>
+                            </div>
+                        </div>
+                        <div class="price-features">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Oil & Filter Change</li>
+                                <li class="list-group-item">Computer & Systems Health Check</li>
+                                <li class="list-group-item">25 Point Check</li>
+                                <li class="list-group-item">Essential Fluid Top Ups</li>
+                                <li class="list-group-item">Road Test & Report</li>
+                                <li class="list-group-item">Lubricate Door Hinges</li>
+                                <li class="list-group-item">Component Adjustments</li>
+                            </ul>
+                        </div>
+                        <div class="holder-price-btn">
+                            <a href="#" class="card-link price-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card-price">
+                        <div class="price-top-bg">
+                            <div class="price-title">
+                                <h3>Premium Plan</h3>
+                            </div>
+                            <div class="price-amount">
+                                <h2>$350 <span class="price-period">- Starting From</span></h2>
+                            </div>
+                        </div>
+                        <div class="price-features">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Oil & Filter Change</li>
+                                <li class="list-group-item">Vacuum FootWells</li>
+                                <li class="list-group-item">Road Test & Report</li>
+                                <li class="list-group-item">Lubricate Door Hinges</li>
+                                <li class="list-group-item">Adjust Brakes As Necessary</li>
+                                <li class="list-group-item">Replace Brake Fluid (Flush)</li>
+                                <li class="list-group-item">Washer, Coolant, Power steering</li>
+                            </ul>
+                        </div>
+                        <div class="holder-price-btn">
+                            <a href="#" class="card-link price-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-gallery pt-100 bg-grey pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h6 class="sub-title">Featured Works</h6>
+                        <h2>Our Gallery</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="holder-img">
+                        <a href="assets/pictures/portfolio-1.jpg" class="img-box" data-fancybox="gallery"
+                            data-caption="Portfolio 1">
+
+                            <img src="assets/pictures/portfolio-1.jpg" class="img-thumbnail">
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="holder-img">
+                        <a href="assets/pictures/portfolio-2.jpg" class="img-box" data-fancybox="gallery"
+                            data-caption="Portfolio 2">
+
+                            <img src="assets/pictures/portfolio-2.jpg" class="img-thumbnail">
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="holder-img">
+                        <a href="assets/pictures/portfolio-3.jpg" class="img-box" data-fancybox="gallery"
+                            data-caption="Portfolio 3">
+
+                            <img src="assets/pictures/portfolio-3.jpg" class="img-thumbnail">
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="holder-img">
+                        <a href="assets/pictures/portfolio-4.jpg" class="img-box" data-fancybox="gallery"
+                            data-caption="Portfolio 4">
+
+                            <img src="assets/pictures/portfolio-4.jpg" class="img-thumbnail">
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="holder-img">
+                        <a href="assets/pictures/portfolio-5.jpg" class="img-box" data-fancybox="gallery"
+                            data-caption="Portfolio 5">
+
+                            <img src="assets/pictures/portfolio-5.jpg" class="img-thumbnail">
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="holder-img">
+                        <a href="assets/pictures/portfolio-6.jpg" class="img-box" data-fancybox="gallery"
+                            data-caption="Portfolio 6">
+
+                            <img src="assets/pictures/portfolio-6.jpg" class="img-thumbnail">
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="counter-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 counter-item">
+                    <div class="warpper-counter">
+                        <div class="counter-contents">
+                            <h2>
+                                <span class="counter-number" data-target="20"></span>
+                            </h2>
+                            <h3 class="counter-heading">Years of Experience</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 counter-item">
+                    <div class="warpper-counter">
+                        <div class="counter-contents">
+                            <h2>
+                                <span class="counter-number" data-target="3500"></span>
+                            </h2>
+                            <h3 class="counter-heading">Car Repair</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 counter-item">
+                    <div class="warpper-counter">
+                        <div class="counter-contents">
+                            <h2>
+                                <span class="counter-number" data-target="15"></span>
+                            </h2>
+                            <h3 class="counter-heading">Technician</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 counter-item">
+                    <div class="warpper-counter">
+                        <div class="counter-contents">
+                            <h2>
+                                <span class="counter-number" data-target="3000"></span>
+                            </h2>
+                            <h3 class="counter-heading">Happy Client</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="overview-section section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="img-holder">
+                        <img src="assets/pictures/choose-1.jpg" alt="image" class="img-thumbnail" title="choose-1">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="overview-content">
+                        <h6 class="sub-title">Why Choose Us?</h6>
+                        <h2>We Offer Car Repair On All Makes And Models Of Vehicles</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+
+                    <div class="features-list">
+                        <div class="row">
+                            <div class="col-12 col-md-6 item-list"><span>Safety Guidelines</span></div>
+                            <div class="col-12 col-md-6 item-list"><span>Quality Repairs</span></div>
+                            <div class="col-12 col-md-6 item-list"><span>Customer Experience</span></div>
+                            <div class="col-12 col-md-6 item-list"><span>Lifetime Warranty</span></div>
+                            <div class="col-12 col-md-6 item-list"><span>Car Frame Repair</span></div>
+                            <div class="col-12 col-md-6 item-list"><span>Scanning Correction</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="overview-section-tow pt-50 pb-100 pb-70">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="section-title">
+                        <h6 class="sub-title">WHY TRUST US?</h6>
+                        <h2>The Best Auto Repair And Maintenance Services</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+
+                    <div class="overview-progress mb-4 mt-4">
+                        <div class="progress-item">
+                            <h6>Quality Repairs <em>100%</em></h6>
+                            <div class="progress skill-progress" role="progressbar" aria-label="Basic example"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar process-line" data-width="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress-item">
+                            <h6>Lifetime Warranty <em>100%</em></h6>
+                            <div class="progress skill-progress" role="progressbar" aria-label="Basic example"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar  process-line" data-width="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress-item">
+                            <h6>Quality Assurance Team <em>100%</em></h6>
+                            <div class="progress skill-progress" role="progressbar" aria-label="Basic example"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar process-line" data-width="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="img-holder">
+                        <img src="assets/pictures/choose-2.jpg" alt="image" class="img-thumbnail" title="choose-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section bg-grey section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h6 class="sub-title sub-title-services">Testimonial</h6>
+                        <h2>Our Client Say</h2>
+                    </div>
+                </div>
+                <div class="col-lg-8 offset-lg-2 col-md-12">
+                    <div class="testimonial-swiper-container">
+                        <div class="swiper testimonial-swiper">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="single-testimonial">
+                                        <div class="rating-box">
+                                            <ul>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. enim ad minim
+                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat.</p>
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="assets/pictures/testimonial-2.jpg" alt="testimonial images"
+                                                title="testimonial-2">
+                                        </div>
+                                        <div class="testimonial-bio">
+                                            <div class="bio-info">
+                                                <h3>Zahra Burnett</h3>
+                                                <span>CTO, Apple</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="single-testimonial">
+                                        <div class="rating-box">
+                                            <ul>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. enim ad minim
+                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat.</p>
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="assets/pictures/testimonial-3.jpg" alt="testimonial images"
+                                                title="testimonial-3">
+                                        </div>
+                                        <div class="testimonial-bio">
+                                            <div class="bio-info">
+                                                <h3>Stevie Wills</h3>
+                                                <span>CAO, Microsoft</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="single-testimonial">
+                                        <div class="rating-box">
+                                            <ul>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. enim ad minim
+                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat.</p>
+                                        </div>
+                                        <div class="avatar">
+                                            <img src="assets/pictures/testimonial-1.jpg" alt="testimonial images"
+                                                title="testimonial-1">
+                                        </div>
+                                        <div class="testimonial-bio">
+                                            <div class="bio-info">
+                                                <h3>Saabir al-Obeid</h3>
+                                                <span>Co-founder, Studio</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-pagination testimonial-swiper-pagination"></div>
+                        </div>
+
+                        <div class="testimonial-swiper-button-next"></div>
+                        <div class="testimonial-swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h6 class="sub-title">Team Member</h6>
+                        <h2>Expert Team</h2>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="box-info">
+                        <div class="team-image">
+                            <img src="assets/pictures/team-1.jpg" alt="" class="img-thumbnail" title="team-1">
+                            <div class="team-social-icon">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h5>Mike Morgan</h5>
+                            <h6>Owner</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="box-info">
+                        <div class="team-image">
+                            <img src="assets/pictures/team-2.jpg" alt="" class="img-thumbnail" title="team-2">
+                            <div class="team-social-icon">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h5>Kevin Haley</h5>
+                            <h6>Technician</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="box-info">
+                        <div class="team-image">
+                            <img src="assets/pictures/team-3.jpg" alt="" class="img-thumbnail" title="team-3">
+                            <div class="team-social-icon">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h5>Alishia Fulton</h5>
+                            <h6>Technician</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="box-info">
+                        <div class="team-image">
+                            <img src="assets/pictures/team-4.jpg" alt="" class="img-thumbnail" title="team-image">
+                            <div class="team-social-icon">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-info">
+                            <h5>Lucas Martinez</h5>
+                            <h6>Technician</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section pt-50 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="faq-image">
+                        <img src="assets/pictures/faq.png" alt="" class="img-thumbnail" title="faq">
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="section-title">
+                        <h6 class="sub-title">Questions</h6>
+                        <h2>Short Faqs</h2>
+                    </div>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Which levels of damage can you repair?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat officia deserunt
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How long will the repair process take?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat officia deserunt mollit anim
+                                    laborum
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    What should I do immediately after a collision?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat officia deserunt mollit anim
+                                    laborum
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header accordion-title">
+                                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Can I choose my collision repair shop?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body accordion-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat officia deserunt mollit anim
+                                    laborum
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section bg-grey pt-100 pb-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h6 class="sub-title">Blog & News</h6>
+                        <h2>Recent Blog</h2>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="assets/pictures/blog-1.jpg" class="card-img-top img-thumbnail" alt="blog-1"
+                            title="blog-1">
+                        <div class="card-body card-body-content">
+                            <div class="card-title">
+                                <span><i class="bi bi-person-circle"></i>Author</span>
+                                <span><i class="bi bi-calendar-check"></i>17 June 2024</span>
+                            </div>
+                            <div class="card-text">
+                                <h3><a href="#">Diagnosing Starting & Charging System Issues Step-By-Step Guide</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-body card-body-more">
+                            <i class="bi bi-arrow-right-short"></i>
+                            <a href="#" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="assets/pictures/blog-2.jpg" class="card-img-top img-thumbnail" alt="blog-2"
+                            title="blog-2">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <span><i class="bi bi-person-circle"></i>Author</span>
+                                <span><i class="bi bi-calendar-check"></i>20 June 2024</span>
+                            </div>
+                            <div class="card-text">
+                                <h3><a href="#">4 Tips to Keep Your Car’s AC Working All Summer Long</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-body card-body-more">
+                            <i class="bi bi-arrow-right-short"></i>
+                            <a href="#" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="assets/pictures/blog-3.jpg" class="card-img-top img-thumbnail" alt="blog-3"
+                            title="blog-3">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <span><i class="bi bi-person-circle"></i>Author</span>
+                                <span><i class="bi bi-calendar-check"></i>25 June 2024</span>
+                            </div>
+                            <div class="card-text">
+                                <h3><a href="#">How Often Should You Have Your Brake System Inspected?</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-body card-body-more">
+                            <i class="bi bi-arrow-right-short"></i>
+                            <a href="#" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="holder-default-btn">
+                        <a class="default-btn" href="#0">View More Blog
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="contentUs-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h6 class="sub-title">Contact Us</h6>
+                        <h2>Get In Touch</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 offset-lg-1">
+                    <form class="contact-form">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="name" id="name" class="form-control" required=""
+                                        placeholder="Your Name">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email" class="form-control" required=""
+                                        placeholder="Your Email">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="phone" id="phone" required="" class="form-control"
+                                        placeholder="Your Phone">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="subject" id="subject" class="form-control" required=""
+                                        placeholder="Your Subject">
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-group">
+
+                                    <textarea name="message" id="message" class="form-control"
+                                        placeholder="Your Message" cols="30" rows="6" required=""></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="holder-default-btn">
+                                    <a class="default-btn" href="#0">Send To Message
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="ourClient-section bg-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h6 class="sub-title">Trusted By Over 1200</h6>
+                        <h2>Our Clients</h2>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="swiper swiper-client">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="client-image">
+                                    <img src="assets/pictures/client-1.png" alt="client-1" title="client-1">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="client-image">
+                                    <img src="assets/pictures/client-2.png" alt="client-2" title="client-2">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="client-image">
+                                    <img src="assets/pictures/client-3.png" alt="client-3" title="client-3">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="client-image">
+                                    <img src="assets/pictures/client-4.png" alt="client-4" title="client-4">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="client-image">
+                                    <img src="assets/pictures/client-5.png" alt="client-5" title="client-5">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="client-image">
+                                    <img src="assets/pictures/client-6.png" alt="client-6" title="client-6">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="client-image">
+                                    <img src="assets/pictures/client-7.png" alt="client-7" title="client-7">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="client-image">
+                                    <img src="assets/pictures/client-8.png" alt="client-8" title="client-8">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-subscribe-wrapper">
+        <!-- Start Subscribe Section -->
+        <div class="subscribe-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="subscribe-content">
+                            <h2>Sign Up Our Newsletter</h2>
+                            <p>We Offer An Informative Monthly Technology Newsletter - Check It Out.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <form class="newsletter-form">
+                            <input type="email" class="input-newsletter" placeholder="Enter Your Email" name="EMAIL"
+                                required="" autocomplete="off">
+                            <button type="submit">Subscribe Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Footer Section -->
+        <div class="footer-area ptb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <a class="footer-logo" href="#">
+                                <img src="assets/pictures/logo.png" class="white-logo" alt="logo" title="logo">
+                            </a>
+                            <p>Lorem ipsum dolor amet, consectetur adipiscing, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut</p>
+                            <ul class="footer-social">
+                                <li>
+                                    <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fab fa-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fab fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <div class="footer-heading">
+                                <h3>Our Services</h3>
+                            </div>
+                            <ul class="footer-quick-links">
+                                <li><a href="#">Oil Change</a></li>
+                                <li><a href="#">Brake Repair</a></li>
+                                <li><a href="#">Engine Repair</a></li>
+                                <li><a href="#">Battery Repair</a></li>
+                                <li><a href="#">AC Repairs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <div class="footer-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul class="footer-quick-links">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                <li><a href="terms-condition.html">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <div class="footer-heading">
+                                <h3>Contact Info</h3>
+                            </div>
+                            <div class="footer-info-contact"> <i class="fa fa-phone"></i>
+                                <h3>Phone</h3>
+                                <span><a href="tel:0802235678">080 707 555-321</a></span>
+                            </div>
+                            <div class="footer-info-contact"> <i class="fa fa-envelope"></i>
+                                <h3>Email</h3>
+                                <span><a href="mailto:demo@example.com">demo@example.com</a></span>
+                            </div>
+                            <div class="footer-info-contact"> <i class="fa fa-home"></i>
+                                <h3>Address</h3>
+                                <span>526 Melrose Street, Water Mill, 11976 New York</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Copyright Section -->
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 text-center text-md-start">
+                        <p><i class="far fa-copyright"></i> 2024 Car- All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center text-md-end">
+                        <ul>
+                            <li> <a href="#">Terms & Conditions</a></li>
+                            <li> <a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/bootstrap/bootstrap-5.3.8/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.36/dist/fancybox/fancybox.umd.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
